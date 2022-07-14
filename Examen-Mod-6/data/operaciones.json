@@ -1,0 +1,58 @@
+[
+    {
+     "id": 1,
+     "descripcion": "renta",
+     "monto": 150000,
+     "roommate_id": 2,
+     "roommate_name": "Diane Moore",
+     "total": 150000
+    },
+    {
+     "id": 2,
+     "descripcion": "alimentación",
+     "monto": 100000,
+     "roommate_id": 2,
+     "roommate_name": "Diane Moore",
+     "total": 250000
+    },
+    {
+     "id": 3,
+     "descripcion": "alimentación",
+     "monto": 80000,
+     "roommate_id": 3,
+     "roommate_name": "Thea Martin",
+     "total": 80000
+    },
+    {
+     "id": 4,
+     "descripcion": "alimentación",
+     "monto": 140000,
+     "roommate_id": 3,
+     "roommate_name": "Thea Martin",
+     "total": 220000
+    },
+    {
+     "id": 5,
+     "descripcion": "gastos comunes",
+     "monto": -35000,
+     "roommate_id": 3,
+     "roommate_name": "Thea Martin",
+     "total": 185000
+    },
+    {
+     "id": 6,
+     "descripcion": "sueldo",
+     "monto": 600000,
+     "roommate_id": 2,
+     "roommate_name": "Diane Moore",
+     "total": 850000
+    },
+    {
+     "id": 7,
+     "descripcion": "renta",
+     "monto": -150000,
+     "roommate_id": 2,
+     "roommate_name": "Diane Moore",
+     "total": 700000
+    }
+   ]
