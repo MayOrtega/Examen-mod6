@@ -1,6 +1,6 @@
-const fs = require("fs");
 const http = require("http")
 const url = require("url")
+const fs = require("fs");
 const axios = require("axios");
 
 let { calculoEdicion, calculoTotal } = require("./funciones")
@@ -134,10 +134,6 @@ http.createServer(async (req, res) => {
         fs.writeFileSync("data/operaciones.json", JSON.stringify(operacionesFiltrado, null, ' '));
         res.end("gasto eliminado");
     }
-
-
-
-
 
 
 }).listen(8080, console.log("Server iniciado en puerto 8080")); 
