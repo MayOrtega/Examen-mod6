@@ -3,6 +3,7 @@ const http = require("http")
 const url = require("url")
 const axios = require("axios");
 
+let { calculoEdicion, calculoTotal } = require("./funciones")
 
 
 http.createServer(async (req, res) => {
